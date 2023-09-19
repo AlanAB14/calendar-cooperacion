@@ -1,0 +1,60 @@
+
+html,
+body,
+body > * { /* the app-root */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.show-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-item label {
+  color: green;
+}
+
+.item-negativo label {
+  color: red;
+}
+
+.item-total label {
+  background-color: rgba(0, 155, 0, 0.432);
+  padding: 4px 6px;
+  border-top: 1px solid black;
+}
+
+.fc-daygrid-day-top, .fc-daygrid-day-number {
+  width: 100%;
+  height: 100%;
+}
+
+.fc-daygrid-day-frame {
+  height: 100%;
+}
+
+.fc-daygrid-day-number {
+  text-align: end;
+}
+
+.grid-items {
+  height: 100%;
+
+}
+
+.box-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
