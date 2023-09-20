@@ -16,6 +16,7 @@ import Swal from 'sweetalert2'
 })
 export class AppComponent implements OnInit{
   calendarVisible = true;
+
   calendarOptions: CalendarOptions = {
     plugins: [
       interactionPlugin,
@@ -36,7 +37,7 @@ export class AppComponent implements OnInit{
       list:     'lista',
     },
     initialView: 'dayGridMonth',
-    weekends: true,
+    weekends: false,
     editable: true,
     selectable: true,
     selectMirror: true,
